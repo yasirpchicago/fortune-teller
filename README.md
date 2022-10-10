@@ -17,7 +17,7 @@ Here is your target:
 
 This app currently supports one URL: `/lottery/lucky`
 
-Follow the R→C→A→V through and study how it works, from `config/routes.rb` through the `app/controllers/` folder, and finally to a template within `app/views/`. Use the [RPS RCAV slides](https://slides.com/raghubetina/06-routing-rcav?token=43w7FD8Q) and [Routing — RCAV chapter](https://chapters.firstdraft.com/chapters/779) as a reference.
+Follow the R→C→A→V through and study how it works, from `config/routes.rb` through the `app/controllers/` folder, and finally to a template within `app/views/`. Use the [RPS RCAV slides](https://slides.com/raghubetina/06-routing-rcav?token=43w7FD8Q), [Routing — RCAV chapter](https://chapters.firstdraft.com/chapters/779), and [RCAV Flowchart](https://chapters.firstdraft.com/chapters/882) as a reference.
 
 Notice that this action is using a custom controller class, rather than the out-of-the-box `ApplicationController`. This helps us keep things organized in larger apps; we can create as many as we like, and have them _inherit_ from `ApplicationController`.
 
